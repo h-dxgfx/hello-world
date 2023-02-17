@@ -1,0 +1,69 @@
+2: can0: <NOARP,UP,LOWER_UP,ECHO> mtu 16 qdisc pfifo_fast state UP mode DEFAULT group default qlen 10
+    link/can  promiscuity 0 minmtu 0 maxmtu 0 
+    can <LOOPBACK> state ERROR-ACTIVE (berr-counter tx 0 rx 0) restart-ms 1 
+	  bitrate 250000 sample-point 0.868 
+	  tq 40 prop-seg 42 phase-seg1 43 phase-seg2 13 sjw 1
+	  rockchip_canfd: tseg1 1..128 tseg2 1..128 sjw 1..128 brp 1..256 brp-inc 2
+	  clock 99000000 
+	  re-started bus-errors arbit-lost error-warn error-pass bus-off
+	  0          0          0          0          0          0         numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 
+    RX: bytes  packets  errors  dropped missed  mcast   
+    0          0        0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    64714      10675    0       0       0       0       
+main function : father pid: 37001, my pid: 37043 
+
+transmit function father pid: 37001, my pid: 37043 
+transmit father process father pid: 37001, my pid: 37043 
+
+transmit2_one_fd function, father pid: 37001, my pid: 37043 
+ 
+transmit2_one_fd son process, father pid: 37043, my pid: 37046 
+ 
+transmit2_one_fd son process, father pid: 37043, my pid: 37046 
+
+transmit2_one_fd son process, father pid: 37043, my pid: 37046 
+
+main function : father pid: 37001, my pid: 37043 
+
+transmit function father pid: 37001, my pid: 37043 
+transmit father process father pid: 37001, my pid: 37043 
+
+transmit2_one_fd function, father pid: 37001, my pid: 37043 
+transmit2_one_fd father process, father pid: 37001, my pid: 37043 
+
+transmit2_one_fd father process, father pid: 37001, my pid: 37043 
+
+transmit2_one_fd father process, father pid: 37001, my pid: 37043 
+
+
+main function : father pid: 37001, my pid: 37043 
+
+transmit function father pid: 37001, my pid: 37043 
+
+transmit son process, father pid: 37043, my pid: 37045 
+
+transmit2_one_fd function, father pid: 37043, my pid: 37045 
+
+transmit2_one_fd son process, father pid: 37045, my pid: 37049 
+
+transmit2_one_fd son process, father pid: 37045, my pid: 37049 
+
+transmit2_one_fd son process, father pid: 37045, my pid: 37049 
+
+
+main function : father pid: 37001, my pid: 37043 
+
+
+transmit function father pid: 37001, my pid: 37043 
+
+transmit son process, father pid: 37043, my pid: 37045 
+
+transmit2_one_fd function, father pid: 37043, my pid: 37045 
+transmit2_one_fd father process, father pid: 37043, my pid: 37045 
+
+transmit2_one_fd father process, father pid: 37043, my pid: 37045 
+
+transmit2_one_fd father process, father pid: 37043, my pid: 37045 
+
+run transmit2_one_fd successful end!
